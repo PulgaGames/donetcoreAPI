@@ -1,0 +1,12 @@
+C:\DevFULLSTACK\webapi\webapi\comun\bin\Debug\comun.dll
+C:\DevFULLSTACK\webapi\webapi\comun\bin\Debug\comun.pdb
+C:\DevFULLSTACK\webapi\webapi\comun\obj\Debug\comun.csproj.AssemblyReference.cache
+C:\DevFULLSTACK\webapi\webapi\comun\obj\Debug\comun.csproj.CoreCompileInputs.cache
+C:\DevFULLSTACK\webapi\webapi\comun\obj\Debug\comun.dll
+C:\DevFULLSTACK\webapi\webapi\comun\obj\Debug\comun.pdb
+C:\DevFULLSTACK\APIfullstack\webapiBackend\comun\bin\Debug\comun.dll
+C:\DevFULLSTACK\APIfullstack\webapiBackend\comun\bin\Debug\comun.pdb
+C:\DevFULLSTACK\APIfullstack\webapiBackend\comun\obj\Debug\comun.csproj.AssemblyReference.cache
+C:\DevFULLSTACK\APIfullstack\webapiBackend\comun\obj\Debug\comun.csproj.CoreCompileInputs.cache
+C:\DevFULLSTACK\APIfullstack\webapiBackend\comun\obj\Debug\comun.dll
+C:\DevFULLSTACK\APIfullstack\webapiBackend\comun\obj\Debug\comun.pdb

@@ -1695,68 +1695,6 @@
             "rid": "win"
           }
         }
-      },
-      "accesodatos/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "comun": "1.0.0",
-          "modelo": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/accesodatos.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/accesodatos.dll": {}
-        }
-      },
-      "clienterest/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "comun": "1.0.0",
-          "modelo": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/clienterest.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clienterest.dll": {}
-        }
-      },
-      "comun/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/comun.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/comun.dll": {}
-        }
-      },
-      "logicanegocio/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "accesodatos": "1.0.0",
-          "clienterest": "1.0.0",
-          "comun": "1.0.0",
-          "modelo": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/logicanegocio.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/logicanegocio.dll": {}
-        }
-      },
-      "modelo/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "comun": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/modelo.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/modelo.dll": {}
-        }
       }
     }
   },
@@ -5296,31 +5234,6 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "accesodatos/1.0.0": {
-      "type": "project",
-      "path": "../../webapiBackend/accesodatos/accesodatos.csproj",
-      "msbuildProject": "../../webapiBackend/accesodatos/accesodatos.csproj"
-    },
-    "clienterest/1.0.0": {
-      "type": "project",
-      "path": "../../webapiBackend/clienterest/clienterest.csproj",
-      "msbuildProject": "../../webapiBackend/clienterest/clienterest.csproj"
-    },
-    "comun/1.0.0": {
-      "type": "project",
-      "path": "../../webapiBackend/comun/comun.csproj",
-      "msbuildProject": "../../webapiBackend/comun/comun.csproj"
-    },
-    "logicanegocio/1.0.0": {
-      "type": "project",
-      "path": "../../webapiBackend/logicanegocio/logicanegocio.csproj",
-      "msbuildProject": "../../webapiBackend/logicanegocio/logicanegocio.csproj"
-    },
-    "modelo/1.0.0": {
-      "type": "project",
-      "path": "../../webapiBackend/modelo/modelo.csproj",
-      "msbuildProject": "../../webapiBackend/modelo/modelo.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5329,11 +5242,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.5",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.21.0",
-      "Swashbuckle.AspNetCore >= 6.6.2",
-      "accesodatos >= 1.0.0",
-      "comun >= 1.0.0",
-      "logicanegocio >= 1.0.0",
-      "modelo >= 1.0.0"
+      "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
   "packageFolders": {
@@ -5368,20 +5277,7 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {
-            "C:\\DevFULLSTACK\\APIfullstack\\webapiBackend\\accesodatos\\accesodatos.csproj": {
-              "projectPath": "C:\\DevFULLSTACK\\APIfullstack\\webapiBackend\\accesodatos\\accesodatos.csproj"
-            },
-            "C:\\DevFULLSTACK\\APIfullstack\\webapiBackend\\comun\\comun.csproj": {
-              "projectPath": "C:\\DevFULLSTACK\\APIfullstack\\webapiBackend\\comun\\comun.csproj"
-            },
-            "C:\\DevFULLSTACK\\APIfullstack\\webapiBackend\\logicanegocio\\logicanegocio.csproj": {
-              "projectPath": "C:\\DevFULLSTACK\\APIfullstack\\webapiBackend\\logicanegocio\\logicanegocio.csproj"
-            },
-            "C:\\DevFULLSTACK\\APIfullstack\\webapiBackend\\modelo\\modelo.csproj": {
-              "projectPath": "C:\\DevFULLSTACK\\APIfullstack\\webapiBackend\\modelo\\modelo.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

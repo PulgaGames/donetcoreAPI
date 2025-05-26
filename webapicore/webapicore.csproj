@@ -20,13 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\webapiBackend\accesodatos\accesodatos.csproj" />
-    <ProjectReference Include="..\..\webapiBackend\comun\comun.csproj" />
-    <ProjectReference Include="..\..\webapiBackend\logicanegocio\logicanegocio.csproj" />
-    <ProjectReference Include="..\..\webapiBackend\modelo\modelo.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Migrations\" />
   </ItemGroup>
 
