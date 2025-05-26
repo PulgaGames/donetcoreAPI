@@ -5,13 +5,13 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copia el .sln y los .csproj primero (importante para cache del restore)
-COPY ./webapicore/webapicore.csproj ./webapicore/
-COPY ./modelo/modelo.csproj ./modelo/
-COPY ./comun/comun.csproj ./comun/
-COPY ./logicanegocio/logicanegocio.csproj ./logicanegocio/
-COPY ./accesodatos/accesodatos.csproj ./accesodatos/
-COPY ./webapicore.sln .
+# Copia el .sln y los .csproj desde la raíz del repo en GitHub (que es webapicore/)
+COPY webapicore.csproj ./webapicore/
+COPY ../modelo/modelo.csproj ./modelo/
+COPY ../comun/comun.csproj ./comun/
+COPY ../logicanegocio/logicanegocio.csproj ./logicanegocio/
+COPY ../accesodatos/accesodatos.csproj ./accesodatos/
+COPY webapicore.sln .
 
 # Restaura dependencias
 RUN dotnet restore "./webapicore.sln"
