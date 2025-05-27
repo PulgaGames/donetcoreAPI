@@ -1,0 +1,12 @@
+**/.classpath
+**/.dockerignore
+**/.env
+**/.git
+**/.vs
+**/.vscode
+**/bin
+**/obj
+**/*.user
+**/node_modules
+
+
